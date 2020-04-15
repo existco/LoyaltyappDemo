@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layout>
+  <div>
+    <grid>
+      <row>
+        <cell width="60%">
+          <text size="70%" align="center" style="bold">: : : : : YOU COULD EARN : : : : :</text>
+          <text align="center" size="200%" style="bold">
+            <value source="PointsEarned" format="#,##0" />
+          </text>
+          <text size="80%" align="center" style="bold">LOYALTY APP POINTS*</text>
+
+          <text size="70%" align="center" margin="2%,0,0,0">Scan this QR code using Loyalty app within 7 days of receipt date to claim now!</text>
+          <text size="70%" align="center" margin="3%,0,0,0">NOT A MEMBER YET? Download Loyalty app FREE* at</text>
+
+          <img src="StoreLogosWhite.png" margin="5,5%,5,5%" />
+
+          <text size="70%" align="center">
+            Follow the sign-up instructions and activate your account via email or sms.
+          </text>
+          <text size="60%" align="center" margin="1%,0,0,0">
+            *See full T&amp;C's at www.loyaltyapp.com.au
+          </text>
+        </cell>
+        <cell>
+          <qrcode source="Token" margin="10%,0,0,0" />
+          <text size="70%" style="bold" align="center">TRANS ID <value  source="TransactionID" /></text>
+        </cell>
+      </row>
+    </grid>
+    <text size="70%" style="bold" align="center" margin="3%,0,0,0">Don't forget to redeem your points at <value source="StoreName" /> on your next purchase!</text>
+  </div>
+</Layout>

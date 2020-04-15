@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layout>
+  <text size="150%" style="bold" align="center"><value source="StoreName" /></text>
+  <text />
+  <grid>
+    <row>
+      <cell width="25%">
+        <text>
+          <value source="TransactionTimestamp" format="dd/MM/yy" />
+        </text>
+      </cell>
+      <cell width="25%">
+        <text>
+          <value source="TransactionTimestamp" format="HH:mm tt" />
+        </text>
+      </cell>
+      <cell>
+        <text align="right">TRANS ID: <value source="TransactionID" /></text>
+      </cell>
+    </row>
+  </grid>
+  <text />
+  <text style="bold">TRANSACTION</text>
+  <text />
+
+  <grid>
+    <row>
+      <cell>
+        <text size="125%" style="bold">TOTAL:</text>
+      </cell>
+      <cell>
+        <text size="125%" style="bold" align="right"><value source="Amount" format="C2" /></text>
+      </cell>
+    </row>
+  </grid>
+
+  <text />
+  <text size="80%" style="bold" align="center">: : : : : : : : : YOU COULD EARN : : : : : : : : :</text>
+  <text size="250%" align="center" style="bold"><value source="PointsEarned" format="#,##0" /></text>
+  <text size="80%" style="bold" align="center">LOYALTY APP POINTS*</text>
+  <text size="90%" />
+
+  <text align="center" size="90%">Scan this QR code using Loyalty app within 7 days of receipt date to claim now!</text>
+
+  <qrcode margin="0,25%" source="Token" />
+
+  <text size="80%" align="center">NOT A MEMBER YET? Download Loyalty app FREE* at</text>
+
+  <img src="StoreLogosWhite.png" margin="3%,22.5%" />
+
+  <text size="80%" align="center" margin="0,10%">Follow the sign-up instructions and activate your account via email or sms.</text>
+
+  <text size="80%"></text>
+
+  <text size="75%" style="bold" align="center">*See Full T&amp;C's at www.loyaltyapp.com.au</text>
+</Layout>
