@@ -1,4 +1,4 @@
-![Loyaltyapp logo](https://github.com/existco/LoyaltyappDemo/Documentation/images/LoyaltyappLogo.png?raw=true)
+![Loyaltyapp logo](https://raw.githubusercontent.com/existco/LoyaltyappDemo/master/Documentation/images/LoyaltyappLogo.png)
 
 # Loyalty app API Demo
 
@@ -26,7 +26,7 @@ You can perform transactions, query transactions, verify user data, and generate
 
 The Loyalty app SDK provides a sample application for testing the API calls and receipt generation options available.
 
-![Demo app overview](https://github.com/existco/LoyaltyappDemo/Documentation/images/DemoApp1.png?raw=true)
+![Demo app overview](https://raw.githubusercontent.com/existco/LoyaltyappDemo/master/Documentation/images/DemoApp1.png)
 
 The first step in using the demo app is to log in with your Loyalty app merchant credentials. Fill out the details in the “Open/Close Session” box and click the “Log In” button.
 
@@ -39,7 +39,7 @@ The demo app will save your user details and current session when you log in or 
 
 ## Verify PIN
 
-![Verify PIN screenshot](https://github.com/existco/LoyaltyappDemo/Documentation/images/DemoApp2.png?raw=true)
+![Verify PIN screenshot](https://raw.githubusercontent.com/existco/LoyaltyappDemo/master/Documentation/images/DemoApp2.png)
 
 PIN verification is useful for a POS application to ensure the current operator is the same person currently logged in to the Loyalty app API.
 
@@ -47,7 +47,7 @@ Enter the current user’s PIN and click the “Verify PIN” button. The status
 
 ## Perform Transaction
 
-![Perform Transaction screenshot](https://github.com/existco/LoyaltyappDemo/Documentation/images/DemoApp3.png?raw=true)
+![Perform Transaction screenshot](https://raw.githubusercontent.com/existco/LoyaltyappDemo/master/Documentation/images/DemoApp3.png)
 
 Transactions are the core of the Loyalty app API. The "Perform Transaction" tab allows you to test creating transactions, exploring transaction properties, and querying transaction statuses.
 
@@ -65,7 +65,7 @@ Once a transaction is generated, the box to the right of the buttons will show a
 
 ## Search Transactions
 
-![Search Transaction screenshot](https://github.com/existco/LoyaltyappDemo/Documentation/images/DemoApp4.png?raw=true)
+![Search Transaction screenshot](https://raw.githubusercontent.com/existco/LoyaltyappDemo/master/Documentation/images/DemoApp4.png)
 
 The "Search Transactions" tab allows you to query Loyalty app for any past transactions.
 
